@@ -1835,14 +1835,15 @@
             "read",
             "create"
           ],
-          "description": "The Azure Region where the resource lives"
+          "description": "The Azure Region where the resource lives. For Private DNS the only valid value is \"Global\"."
         }
       },
       "allOf": [
         {
           "$ref": "#/definitions/Resource"
         }
-      ]
+      ],
+      "required": ["location"]
     },
     "ProxyResource": {
       "description": "The resource model definition for an ARM proxy resource.",
