@@ -1842,7 +1842,8 @@
         {
           "$ref": "#/definitions/Resource"
         }
-      ]
+      ],
+      "required": ["location"]
     },
     "ProxyResource": {
       "description": "The resource model definition for an ARM proxy resource.",
